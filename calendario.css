@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(235, 233, 233);
+    }
+.mes{
+    text-align: center;
+    width: 300px;
+}
+    ol{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 0;
+        border-radius: 10px;
+      
+    }
+    .dia1{
+        grid-column-start:1;
+      
+    }
+    
+    .fond{
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    h1{
+        text-align: left;
+        color: white;
+    }
+    .name{
+        color: rgb(253, 9, 151);
+        text-align: center;
+        
+    }
+
+    .fondo{
+        background-color: rgb(11, 46, 241);
+        padding: 5%;
+        border-radius: 20px;
+        
+    }
